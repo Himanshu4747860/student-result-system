@@ -1,7 +1,7 @@
-from models.marks import marks
+from models.student import student
 
 
-class result(marks):
+class result(student):
 
     @property
     def total(self):
